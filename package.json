@@ -1,0 +1,16 @@
+{
+  "name": "kenote-docs",
+  "version": "1.0.0",
+  "description": "Docs for Kenote",
+  "main": "index.js",
+  "repository": "https://github.com/kenote/kenote-docs.git",
+  "author": "thondery <thondery@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.4.0"
+  },
+  "scripts": {
+    "dev": "vuepress dev .",
+    "build": "vuepress build ."
+  }
+}
