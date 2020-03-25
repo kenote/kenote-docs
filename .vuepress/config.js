@@ -38,6 +38,18 @@ module.exports = {
           }
         ],
         sidebar: {
+          '/guide/': [
+            {
+              title: '指南',
+              collapsable: false,
+              children: [
+                // '',
+                'mac-env-config',
+                'win-env-config',
+                'linux-env-config'
+              ]
+            }
+          ],
           '/kenote-cli/': [
             {
               title: 'kenote-cli',

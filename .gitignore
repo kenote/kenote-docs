@@ -106,4 +106,4 @@ dist
 .tern-port
 
 # Deploy
-deploy.*
+deploy.config.*
